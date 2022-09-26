@@ -1,5 +1,6 @@
+'''
+
 import csv
-from re import A
 import time
 
 Descriptions = {"Pur Accessories", "Pur Homewares", "Pur Manchester", "Pur Sundries", "Mens Wear", "Childrens Wear", "Accessories", "Book", "Electrical", "Homewares", "Manchester", "Sundries", "Women wear", "Discount Allowed", "Donation", "Discount Allowed", "COGS", "30500", "Clearing - Bank", "Cash Total", " EFTPOS Total"}
@@ -39,3 +40,11 @@ for row in vendJournal:
 print("TEST")
 
 print(allStores)
+
+'''
+
+import panda as pd
+
+df = pd.read_csv('salesRep.csv')
+
+print(df) 
