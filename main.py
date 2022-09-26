@@ -34,8 +34,7 @@ print("TEST")
 
 for row in vendJournal:
     column = list(row)
-    if column[2] == 'Windsor':
-        print(column)
+    print(column)
 
 print("TEST")
 
