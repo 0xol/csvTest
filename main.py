@@ -13,10 +13,10 @@ vendJournal = csv.reader(vendJournalFile)
 
 for row in salesRep:
     column = list(row)
-    allStores.append(column) if column not in allStores else allStores
+    allStores.append(column[0]) if column not in allStores else allStores
 
 for row in vendJournal:
     column = list(row)
-    allStores.append(column) if column not in allStores else allStores
+    allStores.append(column[0]) if column not in allStores else allStores
 
 print(allStores)
