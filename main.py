@@ -17,6 +17,6 @@ for row in salesRep:
 
 for row in vendJournal:
     column = list(row)
-    print(column[3])
+    print(column)
 
 print(allStores)
