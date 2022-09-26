@@ -32,6 +32,7 @@ allStores.remove('Tax')
 
 for row in vendJournal:
     column = list(row)
+    print(column)
     if column[2] == "Windsor":
         print(column)
 
