@@ -43,7 +43,7 @@ print(allStores)
 
 '''
 
-import panda as pd
+import pandas as pd
 
 df = pd.read_csv('salesRep.csv')
 
