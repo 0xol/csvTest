@@ -13,10 +13,10 @@ vendJournal = csv.reader(vendJournalFile)
 
 for row in salesRep:
     column = list(row)
-    print(column[0])
+    allStores.add(column[0])
 
 for row in vendJournal:
     column = list(row)
-    print(column[2])
+    allStores.add(column[2])
 
 print(allStores)
