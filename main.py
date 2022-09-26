@@ -3,7 +3,7 @@ import time
 
 Descriptions = {"Pur Accessories", "Pur Homewares", "Pur Manchester", "Pur Sundries", "Mens Wear", "Childrens Wear", "Accessories", "Book", "Electrical", "Homewares", "Manchester", "Sundries", "Women wear", "Discount Allowed", "Donation", "Discount Allowed", "COGS", "30500", "Clearing - Bank", "Cash Total", " EFTPOS Total"}
 
-allStores = {}
+allStores = set(())
 
 salesRepFile = open("salesRep.csv", newline = '')
 vendJournalFile = open("vendJournal.csv", newline = '')
