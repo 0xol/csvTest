@@ -28,6 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: setup
         run: sudo apt install python3 make
+        
+      - name: install panda
         run: sudo pip install panda
 
       # Runs a set of commands using the runners shell
