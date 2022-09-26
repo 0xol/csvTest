@@ -5,4 +5,4 @@ vendJournal = pd.read_csv("vendJournal.csv")
 
 print(vendJournal.loc[vendJournal["OutletName"] == "Windsor"])
 
-print(salesRep)
+print(salesRep.loc[salesRep["Outlet"] == "Windsor"])
