@@ -30,4 +30,9 @@ allStores.remove('Cost of Goods Sold')
 allStores.remove('Revenue (Incl. Tax)')
 allStores.remove('Tax')
 
+for row in vendJournal
+    column = list(row)
+    if column[2] == "Windsor":
+        print(column)
+
 print(allStores)
